@@ -4,7 +4,7 @@ import threading
 import pyfiglet
 from datetime import datetime
 from termcolor import colored
-
+ 
 t1 = datetime.now()
 
 
@@ -15,7 +15,7 @@ def banner():
     print(100 * "_")
 
 
-# Check if the host exists getting host by name using socket
+
 def check_host(host):
     try:
         target = socket.gethostbyname(host)
