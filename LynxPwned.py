@@ -75,7 +75,6 @@ if __name__ == "__main__":
     main()
 
 
-# End time
 t2 = datetime.now()
 total = str(t2 - t1)
 print(colored(f"Scanning Completed in: {total}", "cyan"))
